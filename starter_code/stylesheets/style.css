@@ -1,0 +1,122 @@
+/*
+background purple: #540B51
+background ivory: #F3EAE2
+button blue: #4285F4
+titles black: #191817
+paragraph black: #000000
+paragraph yellow: #ECB12F
+links blue: #2E71A6
+footer links grey: #454245
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    color: white;
+}
+
+body {
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #540B51;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 96%;
+    font-size: 1.5rem;
+    margin: 1vh 2vw;
+}
+
+header {
+    height: 80%;
+}
+
+header > div > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#links {
+    visibility: hidden;
+    height: 0px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+#screenshot {
+    width: 98vw;
+}
+
+#logo {
+    width: 20vw
+}
+
+button > img {
+    height: 5vh;
+    width: 5vw;
+}
+
+#ignore {
+    visibility: hidden;
+    height: 0px;
+}
+
+button {
+    height: 10vh;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+#google-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #4285F4;
+}
+
+#google-logo > img {
+    background-color: white;
+}
+
+#landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header > div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+@media (width > 768px) and (width < 1024px) {
+    
+}
+
+@media (width > 1024px) {
+
+    #links {
+        visibility: inherit;
+        font-size: 4rem;
+    }
+
+}
